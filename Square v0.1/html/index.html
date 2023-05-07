@@ -13,61 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <body>
     <!--Navbar starts here-->
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <!--Logo-->
-    <a class="navbar-brand" href="#"><img src="../resources/icons/logo2.png" alt="" class="img-fluid" style="max-width: 35px;"></a>
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#" style="font-size: 24px;">Square</a>
-      </li>
-    </ul>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!--Navbar icons starts here-->
-      <ul class="navbar-nav ms-auto mb-2 mx-20 mb-lg-0">  
-        <li class="nav-item me-3 ms-5">
-            <a class="nav-link" href="#">
-                <img src="../resources/icons/friends.png" alt="" class="img-fluid" style="max-width: 30px;">
-            </a>
-          </li>
-          <li class="nav-item dropdown me-3 ms-5">
-            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="../resources/icons/bell1.png" alt="" class="img-fluid" style="max-width: 25px;">
-            </a>
-             <!--Navbar dropdown-1 starts here-->  
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            <!--Navbar dropdown-1 ends here-->
-          </li>
-          <!--Navbar dropdown-2 starts here-->
-          <li class="nav-item dropdown me-3 ms-5">
-            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="../resources/icons/settings.png" alt="" class="img-fluid" style="max-width: 25px;">
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">Contact us</a></li>
-              <li><a class="dropdown-item" href="#">Settings</a></li>
-              <li><a class="dropdown-item" href="#">Themes</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Log out</a></li>
-            </ul>
-          </li>
-          <!--Navbar dropdown-2 starts here-->
-      </ul>
-       <!--Navbar icons ends here-->  
-    </div>
-  </div>
- 
-</nav>
-<!--Navbar ends here-->
+      <div class="showNavbar"></div>
+    <!--Navbar ends here-->
 
 <!--Main body starts here-->
 <div class="container text-center my-3 px-4">
@@ -110,29 +57,37 @@
             <div class="post-container"></div>
     </div>
  
-        <!--Stories section starts here-->
-        <div class="col-3 right d-none d-lg-block box">
-            Column
-        </div>
-        <!--Stories section ends here-->
+        <!--Trending/Suggestions section starts here-->
+        <div class="col-3 right d-none d-lg-block px-0">
+
+          <!--Trending div-->
+          <div class="card right-block">
+            <div class="card-header bg-primary">
+              <div class="row mx-0 bg-primary w-100">
+                <div class="col-12 px-0">
+                  <div class="btn-group w-100" role="group" aria-label="Button group with two buttons" style="border: 1px solid white;">
+                    <button type="button" class="btn btn-primary active" id="trending-btn">Trending</button>
+                    <button type="button" class="btn btn-primary" id="suggestion-btn">Suggestions</button>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="show-News"></div>
+              <div class="show-Suggestions"></div>
+            </div>
+          </div>
+
+          <!-- HTML code for the chat window -->
+          <div class="chatsSectionHere"></div>
+
+          </div>
+        <!--Trending/Suggestions section ends here-->
+
     </div>
 </div>
   <!--Main body ends here-->
 
   <script src="../js/index.js"></script>
-
-  <script>
-    const post1 = createPostHTML("../resources/icons/profile1.png", "Dilip Badal", "../resources/icons/profile1.png");
-    const post2 = createPostHTML("../resources/icons/profile2.png", "Kavya HS", "../resources/icons/profile2.png");
-
-    // append the generated HTML code to a container element
-    document.querySelector(".post-container").innerHTML = post1 + post2;
-
-
-    const chat1 = createChatHeads("../resources/icons/profile2.png", "Kavya", "What's up Badal?")
-    const chat2 = createChatHeads("../resources/icons/profile1.png", "Madhu", "Yeno maadtidiya?")
-    document.querySelector(".show-chat-heads").innerHTML = chat1 + chat2;
-  </script>
-  
 </body>
 </html>
