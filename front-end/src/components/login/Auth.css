@@ -1,0 +1,18 @@
+/* body {
+    overflow-y: hidden;
+} */
+
+.link-primary, .question{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.input-Label, .head-title{
+    color: whitesmoke;
+}
+
+.alreadyExisits {
+    border: 2px red solid;
+}
+  
+  

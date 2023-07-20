@@ -1,0 +1,51 @@
+.heading{
+    font:bolder;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+
+.viewerView{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewing{
+
+
+  width: 50%;
+}
+
+.profilePictureContainer {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dimLayer {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .profilePictureContainer:hover .dimLayer {
+    opacity: 1;
+  }

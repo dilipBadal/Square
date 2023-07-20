@@ -1,0 +1,84 @@
+*{
+  font-family: 'Helvetica Neue, Arial, sans-serif, Helvetica' 
+}
+
+.loading {
+    position: relative;
+    min-height: 50vh;
+}
+
+.loading-dp {
+  position: relative;
+  min-height: 10vh;
+  min-width: 10vh;
+}
+
+.loading-dp::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #384dd7;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+  
+  .loading::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #384dd7;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  .caption {
+    font-size: 20px;
+    color: #000;
+    font-family: Helvetica, Arial , sans-serif;
+  }
+
+  .profile-picture{
+    margin: 10px 0;
+  }
+
+  .comment-section{
+    background-color: #d6d5d2;
+    border-radius: 2%;
+  }
+
+  .comnt-btn{
+    background-color: #0d6efd;
+  }
+
+  .comnt-btn:hover{
+    background-color: #0f5fd6;
+    transition: 0.3s ease-out;
+  }
+
+  .likes-counter {
+    text-decoration: none;
+  }
+
+  .dropdown-item{
+    cursor: pointer;
+  }
+  

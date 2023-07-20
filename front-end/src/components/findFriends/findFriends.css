@@ -1,0 +1,22 @@
+.heaidng{
+    font-size: 3rem;
+}
+
+.search-btn{
+    width: 80px;
+    height: 35px;
+}
+
+.search-group{
+    max-width: 700px;
+}
+
+.profile-group{
+    max-width: 590px;
+    min-width: 590px;
+}
+
+.imgContainer{
+    max-width: 20px;
+    max-height: 20px;
+}
