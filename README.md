@@ -30,6 +30,7 @@ Thats all for now.
 
 
 **Database setup**
+
 So next, 
 go ahead and create a database with the name SocialSquare. If you want to name it something else then change the database name in the server.js file.
 
