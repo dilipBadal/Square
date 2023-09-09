@@ -18,6 +18,13 @@ First and formost. Install the required libraries and technologies,
 10. bycrypt
 11. mongodb ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
+**To install the above libraries** (not database and node js)
+
+1. Open up a terminal
+2. navigate to the back-end folder using the command 'cd'
+3. then just do, npm i
+4. npm i installs all the required libraries that are mentioned in the package.json
+
 **For front-end**
 1. bootstrap
 2. chakra ui react
@@ -26,7 +33,12 @@ First and formost. Install the required libraries and technologies,
 5. axios
 6. socket.io-client
 
-Thats all for now.
+**To install the above libraries**
+
+1. Open up a terminal
+2. navigate to the front-end folder using the command 'cd'
+3. then just do, npm i
+4. npm i installs all the required libraries that are mentioned in the package.json
 
 
 **Database setup**
@@ -69,4 +81,14 @@ This one is easy to setup
 3. Get the key, which is free no need to pay for the premium one
 
 
-Thats all for now, you should be all set to run the project now. Hit me up if you encounter any bugs!!!
+Thats all for now, you should be all set to run the project now. 
+
+**Run the project**
+
+install the concurrently library in the root directory of the project using the command,
+
+npm install concurrently --save-dev
+
+
+
+
