@@ -19,7 +19,7 @@ const NewsSuggestions = ({token, currentUser, isDarkMode}) => {
       if (isTrendingActive) {
         // Fetch trending news using news API
         fetch(
-          "https://newsapi.org/v2/everything?q=india&sortBy=publishedAt&apiKey=e70ec7465f6c4c75bc0719522ebcd97e"
+          "Your api key here, without an api key from NEWS API, this section of the code will produce an error"
         )
           .then((response) => response.json())
           .then((data) => {
