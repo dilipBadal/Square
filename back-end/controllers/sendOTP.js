@@ -15,7 +15,7 @@ exports.sendOTP = (req, res) => {
   const { to, subject, text } = req.body;
 
   const mailOptions = {
-    from: 'socialsquare33@gmail.com',
+    from: 'your same email agian here',
     to,
     subject,
     html: `
