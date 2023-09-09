@@ -5,8 +5,8 @@ const transporter = nodemailer.createTransport({
   // Configure your email provider details here
   service: 'Gmail',
   auth: {
-    user: 'socialsquare33@gmail.com',
-    pass: 'bgabqznuyhaalpvo',
+    user: 'your email here',
+    pass: 'your email app password here', // see how to create an app passowrd for your email. 
   },
 });
 
