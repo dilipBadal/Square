@@ -35,6 +35,7 @@ So next,
 go ahead and create a database with the name SocialSquare. If you want to name it something else then change the database name in the server.js file.
 
 **Drive api**
+
 The most important api to have is this, drive api.
 How do you get it?
 easy, go to google developers console. https://console.cloud.google.com/apis/dashboard this site. Then create a project. You can name it anything it doesn't matter. once that is done.
@@ -50,6 +51,7 @@ search for **drive api** and click enable.
 8. You are all set up for drive api
 
 **E-mail Verification System**
+
 1. You can use your personal email but I recommend you create a new one for the project.
 2. Once you are ready with the email, go to security
 3. Then go to two factor authentication
@@ -60,6 +62,7 @@ search for **drive api** and click enable.
 8. The file can be found in the following path, ./back-end/controllers/sendOTP.js
 
 **NEWS API**
+
 This one is easy to setup
 1. Go to news api website, https://newsapi.org/
 2. Create an account
