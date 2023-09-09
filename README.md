@@ -5,7 +5,7 @@ Square is a interactive and customizable social media site which offers a lot of
 Hi there, Dilip here. You must be wondering how in the world do I run this project. Here to help. 
 
 First and formost. Install the required libraries and technologies,
-**for back-end,**
+**For back-end,**
 1. Node js ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 2. React ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 3. cors
@@ -18,7 +18,7 @@ First and formost. Install the required libraries and technologies,
 10. bycrypt
 11. mongodb ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-**for front-end**
+**For front-end**
 1. bootstrap
 2. chakra ui react
 3. react-toastify
